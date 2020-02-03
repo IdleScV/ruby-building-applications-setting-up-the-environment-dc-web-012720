@@ -11,4 +11,7 @@ basil.garden = lawn
 cucumber = Plant.new(name: 'Cucumber')
 cucumber.garden = lawn
 
+require_relative '../lib/garden.rb'
+require_relative '../lib/plant.rb'
+
 p lawn.plants
